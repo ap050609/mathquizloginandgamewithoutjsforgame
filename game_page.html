@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maths Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+
+    <h4 id="player1_username" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(207, 47, 7); font-style: italic; font-weight: bolder;">------</h4> <span id="player 1 score" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: chocolate; font-style: italic; font-weight: bolder;">0</span>
+    
+    <h4 id="player2_username" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(207, 47, 7); font-style: italic; font-weight: bolder;">------</h4> <span id="player 2 score" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: chocolate; font-style: italic; font-weight: bolder;">0</span>
+
+    <div class="container">
+        <center>
+            <h2 style="font-weight: bolder; color: teal;">Guess The Number!</h2>
+            <h3 id="question" style="color: palegreen;"></h3>
+            <h3 id="answer" style="color: olivedrab;"></h3>
+            <div id="output" class="col-lg-6">
+                <br>
+                <br>
+                <br>
+                <label style="color: rosybrown; font-weight: bolder;"></label>
+                <br>
+                <br>
+                <br>
+                <input type="text" id="number1" class="form-control" placeholder="Multiplicand">
+                <br>
+                <br>
+                <br>
+                <input type="text" id="number2" class="form-control" placeholder="Multiplier">
+                <br>
+                <br>
+                <br>
+                <button class="btn btn-success" onclick="send()">Send</button>
+            </div>
+        </center>
+    </div>
+</body>
+</html>
